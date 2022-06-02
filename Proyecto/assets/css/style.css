@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-boxs;
+}
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header{
+    display: flex;
+    background-color: rgb(250, 250, 11);
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(14, 227, 67);
+    height: 50px;
+    text-decoration: none;
+}
+.presentacion {
+    width: 500px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    color: rgb(14, 227, 67);
+}
+.presentacion div{
+    margin-inline: 200px;
+}
+.presentacion h5 {
+    font-size: 20px;
+}
+.presentacion p{
+    border-radius: 10px;
+    border-width: 3px;
+    border-color:  rgb(14, 227, 67);
+    border-style: solid;
+}
+h2{
+    color: rgb(14, 227, 67);
+    text-align: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    padding: 0px;
+}
+.logo img{
+    height: 50px;
+    align-items: center;
+    margin-right: 20px;
+    
+}
+a{
+    text-decoration: none;
+    padding: 3px;
+    margin-right: 10px;
+    color: rgb(14, 227, 67);
+    font-weight: 500
+}
+a:hover{
+    color: aliceblue;
+}
+footer{
+    text-align: center;
+    background-color: rgb(250, 250, 11);
+    height: 50px;
+    color: rgb(14, 227, 67);
+    font-size: 20px;
+}
+footer h5{
+    padding: 15px;
+}
+HaceteSocio main div {
+    border-radius: 10px;
+    border-width: 3px;
+    border-color:  rgb(14, 227, 67);
+    border-style: solid;
+}
